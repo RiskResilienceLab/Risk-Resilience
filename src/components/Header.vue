@@ -51,14 +51,14 @@ const handleLanguageChange = () => {
 }
 
 .wrapper {
-  max-width: 90%;
+  max-width: 80%;
   margin: 0 auto;
   padding: 0 2%;
 }
 
 .header-nav {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   padding: 1.5vh 0;
 }
@@ -67,6 +67,7 @@ const handleLanguageChange = () => {
   display: flex;
   gap: 3rem;
   align-items: center;
+  justify-content: center;
 }
 
 .nav-links a {
@@ -148,6 +149,10 @@ const handleLanguageChange = () => {
 }
 
 @media (max-width: 1280px) {
+  .wrapper {
+    max-width: 85%;
+  }
+
   .nav-links {
     gap: 2.5rem;
   }
@@ -162,6 +167,10 @@ const handleLanguageChange = () => {
 }
 
 @media (max-width: 1024px) {
+  .wrapper {
+    max-width: 90%;
+  }
+
   .nav-links {
     gap: 1rem;
   }
