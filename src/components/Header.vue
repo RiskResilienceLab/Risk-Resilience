@@ -9,10 +9,15 @@
           <router-link to="/honors">项目奖励</router-link>
           <router-link to="/members">课题组成员</router-link>
           <router-link to="/research">科研项目</router-link>
-          <router-link to="/progress">进展动态</router-link>
-          <router-link to="/team-building">团建活动</router-link>
-          <router-link to="/advertisement">广告</router-link>
-          <router-link to="/resources">共享资源</router-link>
+          <div class="dropdown">
+            <span class="more-menu">更多 ▾</span>
+            <div class="dropdown-content">
+              <router-link to="/progress">进展动态</router-link>
+              <router-link to="/team-building">团建活动</router-link>
+              <router-link to="/advertisement">广告</router-link>
+              <router-link to="/resources">共享资源</router-link>
+            </div>
+          </div>
           <router-link to="/" @click="handleLanguageChange" class="lang-switch">EN/CH</router-link>
         </div>
       </nav>
@@ -60,7 +65,7 @@ const handleLanguageChange = () => {
 
 .nav-links {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   align-items: center;
 }
 
@@ -93,8 +98,8 @@ const handleLanguageChange = () => {
 }
 
 .site-title {
-  margin-right: 4rem;
-  font-size: 1.25rem;
+  margin-right: 6rem;
+  font-size: 1.375rem;
   color: #666;
   text-decoration: none;
   font-weight: bold;
@@ -144,7 +149,7 @@ const handleLanguageChange = () => {
 
 @media (max-width: 1280px) {
   .nav-links {
-    gap: 1.5rem;
+    gap: 2.5rem;
   }
 
   .nav-links a {
@@ -190,6 +195,15 @@ const handleLanguageChange = () => {
     font-size: 0.875rem;
     padding: 0.25rem 0;
   }
+
+  .dropdown-content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    transform: none;
+    width: 100%;
+    top: auto;
+  }
 }
 
 @media (max-width: 576px) {
@@ -208,5 +222,56 @@ const handleLanguageChange = () => {
     margin-right: 0;
     margin-bottom: 0.5rem;
   }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.more-menu {
+  color: #666;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  font-size: 1.125rem;
+}
+
+.more-menu:hover {
+  color: #333;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  z-index: 1001;
+  border-radius: 4px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dropdown-content a {
+  color: #666;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.dropdown-content a:hover {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a::after {
+  display: none;
 }
 </style>
