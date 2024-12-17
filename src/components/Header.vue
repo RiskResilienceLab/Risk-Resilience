@@ -8,16 +8,8 @@
           <router-link to="/academic">学术成果</router-link>
           <router-link to="/honors">项目奖励</router-link>
           <router-link to="/members">课题组成员</router-link>
-          <router-link to="/research">科研项目</router-link>
-          <div class="dropdown">
-            <span class="more-menu">更多 ▾</span>
-            <div class="dropdown-content">
-              <router-link to="/progress">进展动态</router-link>
-              <router-link to="/team-building">团建活动</router-link>
-              <router-link to="/advertisement">广告</router-link>
-              <router-link to="/resources">共享资源</router-link>
-            </div>
-          </div>
+          <router-link to="/progress">进展动态</router-link>
+          <router-link to="/resources">共享资源</router-link>
           <router-link to="/" @click="handleLanguageChange" class="lang-switch">EN/CH</router-link>
         </div>
       </nav>
@@ -154,7 +146,7 @@ const handleLanguageChange = () => {
   }
 
   .nav-links {
-    gap: 2.5rem;
+    gap: 2rem;
   }
 
   .nav-links a {
@@ -173,6 +165,10 @@ const handleLanguageChange = () => {
 
   .nav-links {
     gap: 1rem;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
   }
 
   .wrapper {

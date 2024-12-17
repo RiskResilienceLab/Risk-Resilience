@@ -1,6 +1,32 @@
 <template>
   <div class="page-container">
     <div class="section">
+      <h3>科研项目</h3>
+      <div class="content-wrapper">
+        <h4>主持项目</h4>
+        <ul>
+          <li>
+            <div class="project-title">国家自然科学基金青年基金项目，主持，结题</div>
+          </li>
+          <li>
+            <div class="project-title">浙江省自然科学基金重点项目（联合项目），主持，在研</div>
+          </li>
+          <li>
+            <div class="project-title">博士后科学基金面上资助，主持，结题</div>
+          </li>
+          <li>
+            <div class="project-title">上海市青年英才扬帆计划，主持，结题</div>
+          </li>
+        </ul>
+
+        <h4>参与项目</h4>
+        <ul>
+          <li>作为项目骨干，参与国家重点研发"大都市区多灾种重大自然灾害风险综合防范关键技术研究与示范"，"金砖国家城市公共安全的地理大数据应用研究"等项目。</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
       <h3>荣誉</h3>
       <div class="content-wrapper">
         <ul>

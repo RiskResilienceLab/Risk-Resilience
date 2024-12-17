@@ -22,24 +22,9 @@ const routes = [
         component:()=>import(/*webpackChunkName:'Login'*/'@/page/members/members.vue')
     },
     {
-        path:'/research',
-        name:'research',
-        component:()=>import(/*webpackChunkName:'Login'*/'@/page/research/research.vue')
-    },
-    {
         path: '/progress',
         name: 'progress',
         component: () => import('../page/progress/progress.vue')
-    },
-    {
-        path: '/team-building',
-        name: 'team-building',
-        component: () => import('../page/team-building/team-building.vue')
-    },
-    {
-        path: '/advertisement',
-        name: 'advertisement',
-        component: () => import('../page/advertisement/advertisement.vue')
     },
     {
         path:'/resources',

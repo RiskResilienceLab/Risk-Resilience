@@ -94,7 +94,8 @@ const languages = {
     research: [
       "气候变化下自然灾害致灾机理研究：海平面上升，海岸洪水，暴雨、多灾种及灾害链复合效应",
       "沿海城市自然灾害风险评估与适应：脆弱性、恢复性、适应措施及风险评估",
-      "海岸带人-环境系统可持续发展研究：海岸带生态系统服务、生态减灾及可持续发展"
+      "海岸带人-环境系统可持续发展研究：海岸带生态系统服务、生态减灾及可持续发展",
+      "大数据与人工智能在防灾减灾应用：数据驱动灾损评估模型，灾后快速评估等"
     ],
     work: [
       "2022.8-至今  杭州师范大学 遥感与地球科学研究院 副教授",
@@ -126,7 +127,8 @@ const languages = {
     research: [
       "Coastal processes and hydrodynamics: sea level rise, coastal flood, multi-hazards and their impacts",
       "Climate adaptation and resilience for coastal cities: vulnerability, resilience, adaptation and risk assessment",
-      "Sustainability of human-natural systems in coastal zones: coastal ecosystem services, Integrated Coastal Zone Management"
+      "Sustainability of human-natural systems in coastal zones: coastal ecosystem services, Integrated Coastal Zone Management",
+      "Application of Big Data and Artificial Intelligence in Disaster Prevention and Mitigation: Data-Driven Disaster Loss Assessment Models and Rapid Post-Disaster Assessment"
     ],
     work: [
       "2022.09~now   Associate Professor\nInstitute of Remote Sensing and Earth Sciences, Hangzhou Normal University, Zhejiang, China",
@@ -188,7 +190,7 @@ h3 {
   font-weight: bold;
   color: #333;
   padding-bottom: 10px;
-  border-bottom: 2px solid #efecec; /* 标题下方添加蓝色横线 */
+  border-bottom: 2px solid #efecec;
 }
 
 .section-title .el-icon {
