@@ -6,7 +6,7 @@
         <div class="resource-content">
           <div class="resource-placeholder">
             <el-icon class="placeholder-icon"><Document /></el-icon>
-            <p>资源整理中，敬请期待...</p>
+            <p>整理中，有待上传...</p>
           </div>
         </div>
       </div>

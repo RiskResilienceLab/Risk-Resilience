@@ -9,7 +9,7 @@
               <h3>在读研究生</h3>
               <ul class="member-list">
                 <li>边万超</li>
-                <li>杨丰央</li>
+                <li>杨洋央</li>
                 <li>戴泽浩</li>
                 <li>谢鹏</li>
                 <li>黄炯豪</li>
