@@ -46,9 +46,9 @@ const handleLanguageChange = () => {
 }
 
 .wrapper {
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0 2%;
 }
 
 .header-nav {
@@ -60,7 +60,7 @@ const handleLanguageChange = () => {
 
 .nav-links {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   align-items: center;
 }
 
@@ -93,8 +93,8 @@ const handleLanguageChange = () => {
 }
 
 .site-title {
-  margin-right: 6rem;
-  font-size: 1.375rem;
+  margin-right: 4rem;
+  font-size: 1.25rem;
   color: #666;
   text-decoration: none;
   font-weight: bold;
@@ -140,6 +140,35 @@ const handleLanguageChange = () => {
 .nav-links a.router-link-active::after {
   transform: scaleX(1);
   height: 3px;
+}
+
+@media (max-width: 1280px) {
+  .nav-links {
+    gap: 1.5rem;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+  }
+
+  .site-title {
+    margin-right: 3rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .wrapper {
+    max-width: 95%;
+    padding: 0 1%;
+  }
+
+  .site-title {
+    margin-right: 2rem;
+  }
 }
 
 @media (max-width: 768px) {
