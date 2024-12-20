@@ -1,4 +1,12 @@
 {
+  "siteTitle": "方佳毅学术主页",
+  "nav": {
+    "academic": "Publication",
+    "honors": "Projects&Awards",
+    "members": "People",
+    "progress": "Updates",
+    "resources": "Links"
+  },
   "home": {
     "titles": {
       "profile": "Profile",

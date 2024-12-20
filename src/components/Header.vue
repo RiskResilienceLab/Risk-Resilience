@@ -3,14 +3,28 @@
     <div class="header-border-top"></div>
     <div class="wrapper">
       <nav class="header-nav">
-        <router-link class="site-title" to="/">方佳毅学术主页</router-link>
+        <router-link class="site-title" to="/">
+          {{ $t('siteTitle') }}
+        </router-link>
         <div class="nav-links">
-          <router-link to="/academic">学术成果</router-link>
-          <router-link to="/honors">项目奖励</router-link>
-          <router-link to="/members">课题组成员</router-link>
-          <router-link to="/progress">进展动态</router-link>
-          <router-link to="/resources">共享资源</router-link>
-          <router-link to="/" @click="handleLanguageChange" class="lang-switch">EN/CH</router-link>
+          <router-link to="/academic" class="nav-item">
+            {{ $t('nav.academic') }}
+          </router-link>
+          <router-link to="/honors" class="nav-item">
+            {{ $t('nav.honors') }}
+          </router-link>
+          <router-link to="/members" class="nav-item">
+            {{ $t('nav.members') }}
+          </router-link>
+          <router-link to="/progress" class="nav-item">
+            {{ $t('nav.progress') }}
+          </router-link>
+          <router-link to="/resources" class="nav-item">
+            {{ $t('nav.resources') }}
+          </router-link>
+          <router-link to="/" @click="handleLanguageChange" class="lang-switch">
+            EN/CH
+          </router-link>
         </div>
       </nav>
     </div>
@@ -20,8 +34,14 @@
 
 <script setup>
 import { useI18n } from 'vue-i18n'
+import { onMounted } from 'vue'
 
-const { locale } = useI18n()
+const { locale, t } = useI18n()
+
+onMounted(() => {
+  // 设置初始语言为英文
+  locale.value = 'en'
+})
 
 const handleLanguageChange = () => {
   locale.value = locale.value === 'zh' ? 'en' : 'zh'
@@ -278,5 +298,11 @@ const handleLanguageChange = () => {
 
 .dropdown-content a::after {
   display: none;
+}
+
+.nav-item {
+  min-width: 120px;
+  text-align: center;
+  display: inline-block;
 }
 </style>

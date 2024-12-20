@@ -20,7 +20,7 @@
           </div>
           <div class="section-content">
             <ul class="education-list">
-              <li v-for="(item, index) in currentLanguage.education" :key="index">{{ item }}</li>
+              <li v-for="(item, index) in currentLanguage.education" :key="index" v-html="item"></li>
             </ul>
           </div>
         </section>
@@ -116,7 +116,7 @@ const languages = {
     },
     profile: "Jiayi FANG,Ph.D., Associate Professor, Master Supervisor.Dr. Fang specializes in research on the mechanisms of natural disasters, disaster risk assessment, and sustainable development. She visited International Institute for Applied Systems Analysis (IIASA) and the University of Southampton, UK for nearly two years. Dr. Fang has published over 40 papers in renowned journals such as Science, Nature Climate Change, and Nature Communications. Additionally, Dr. Fang serves as a member of the Natural Disaster Risk and Integrated Disaster Reduction Professional Committee of the China Geographical Society, has been recognized with the title of \"Sailing Talent\" in Shanghai and the designation of Advanced Worker by the Zhejiang Geographical Society. Her research was also honored with the inclusion of \"Outstanding Paper by Young Science and Technology Workers in Zhejiang Province for the year 2023.\"",
     education: [
-      "2016.01~2017.08   Visiting Postgraduate Research Student\nUniversity of Southampton/National Oceanography Centre, Southampton, UK\nEngineering and the Environment\nSupervisors: Prof. Robert Nicholls, Dr. Sally Brown, Dr. Thomas Wahl\nMajor: Coastal engineering\nResearch Proposal: Risk assessment of sea level changes and storm surge in coastal China",
+      "2016.01~2017.08   Visiting Postgraduate Research Student\nUniversity of Southampton/National Oceanography Centre, Southampton, UK\nEngineering and the Environment\nSupervisors: Prof. Robert Nicholls, Dr. Sally Brown, Dr. Thomas Wahl\nMajor: Coastal engineering\nResearch Proposal: Risk assessment of sea level changes and storm surge in coastal China\n<a href='https://www.southampton.ac.uk/engineering/postgraduate/research_students/jf5g15.page' target='_blank' class='education-link'>Link →</a>",
 
       "2015.06~2015.08   Research assistant\nInternational Institute for Applied Systems Analysis (IIASA), Vienna, Austria\nRisk, Policy, and Vulnerability (RPV) program\nYoung Scientist Summer Program (YSSP)\nResearch Proposal: Coastal disasters and risk in China: Impacts and resilience",
 
@@ -241,5 +241,17 @@ li {
   .section-content {
     padding: 0 5px;
   }
+}
+
+.education-link {
+  color: #1e88e5;
+  text-decoration: none;
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+
+.education-link:hover {
+  color: #1565c0;
+  text-decoration: underline;
 }
 </style>
