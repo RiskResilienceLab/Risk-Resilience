@@ -4,7 +4,7 @@
     <div class="wrapper">
       <nav class="header-nav">
         <router-link class="site-title" to="/">
-          方崔毅学术主页
+          方佳毅学术主页
         </router-link>
         <div class="nav-links">
           <router-link to="/academic" class="nav-item">
