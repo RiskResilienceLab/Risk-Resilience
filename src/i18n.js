@@ -4,8 +4,8 @@ import zh from './locales/zh.json'
 
 export default createI18n({
   legacy: false, // 使用 Composition API 模式
-  locale: 'en', // 设置默认语言为英文
-  fallbackLocale: 'en', // 设置回退语言为英文
+  locale: 'ch', // 设置默认语言为英文
+  fallbackLocale: 'ch', // 设置回退语言为英文
   messages: {
     en,
     zh

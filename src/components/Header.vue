@@ -4,23 +4,38 @@
     <div class="wrapper">
       <nav class="header-nav">
         <router-link class="site-title" to="/">
-          {{ $t('siteTitle') }}
+          方崔毅学术主页
         </router-link>
         <div class="nav-links">
           <router-link to="/academic" class="nav-item">
-            {{ $t('nav.academic') }}
+            <div class="nav-text">
+              <div>学术成果</div>
+              <div class="sub-text">Publication</div>
+            </div>
           </router-link>
           <router-link to="/honors" class="nav-item">
-            {{ $t('nav.honors') }}
+            <div class="nav-text">
+              <div>项目奖励</div>
+              <div class="sub-text">Projects&Awards</div>
+            </div>
           </router-link>
           <router-link to="/members" class="nav-item">
-            {{ $t('nav.members') }}
+            <div class="nav-text">
+              <div>课题组成员</div>
+              <div class="sub-text">People</div>
+            </div>
           </router-link>
           <router-link to="/progress" class="nav-item">
-            {{ $t('nav.progress') }}
+            <div class="nav-text">
+              <div>进展动态</div>
+              <div class="sub-text">Updates</div>
+            </div>
           </router-link>
           <router-link to="/resources" class="nav-item">
-            {{ $t('nav.resources') }}
+            <div class="nav-text">
+              <div>共享资源</div>
+              <div class="sub-text">Links</div>
+            </div>
           </router-link>
           <router-link to="/" @click="handleLanguageChange" class="lang-switch">
             EN/CH
@@ -34,17 +49,20 @@
 
 <script setup>
 import { useI18n } from 'vue-i18n'
-import { onMounted } from 'vue'
+import { onMounted, watch } from 'vue'
+import { useRoute } from 'vue-router'
 
 const { locale, t } = useI18n()
+const route = useRoute()
 
 onMounted(() => {
-  // 设置初始语言为英文
-  locale.value = 'en'
+  locale.value = 'zh'
 })
 
 const handleLanguageChange = () => {
-  locale.value = locale.value === 'zh' ? 'en' : 'zh'
+  if (route.path === '/') {
+    locale.value = locale.value === 'zh' ? 'en' : 'zh'
+  }
   if (window.location.hash !== '#/') {
     window.location.hash = '#/'
   }
@@ -304,5 +322,39 @@ const handleLanguageChange = () => {
   min-width: 120px;
   text-align: center;
   display: inline-block;
+}
+
+.nav-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.sub-text {
+  font-size: 0.75rem;
+  color: #999;
+}
+
+@media (max-width: 1280px) {
+  .nav-item {
+    min-width: 100px;
+  }
+  
+  .sub-text {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-item {
+    min-width: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sub-text {
+    display: none;
+  }
 }
 </style>

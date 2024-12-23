@@ -1,11 +1,11 @@
 {
   "siteTitle": "方佳毅学术主页",
   "nav": {
-    "academic": "Publication",
-    "honors": "Projects&Awards",
-    "members": "People",
-    "progress": "Updates",
-    "resources": "Links"
+    "academic": "学术成果",
+    "honors": "项目奖励",
+    "members": "课题组成员",
+    "progress": "进展动态",
+    "resources": "共享资源"
   },
   "home": {
     "titles": {
