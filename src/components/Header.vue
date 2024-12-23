@@ -56,7 +56,7 @@ const { locale, t } = useI18n()
 const route = useRoute()
 
 onMounted(() => {
-  locale.value = 'zh'
+  locale.value = 'en'
 })
 
 const handleLanguageChange = () => {
