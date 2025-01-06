@@ -35,6 +35,33 @@ import { ref } from 'vue'
 
 const newsList = ref([
   {
+    date: '2025-01-04',
+    title: '方佳毅老师入选"2024中国知网高被引学者"',
+    isExpanded: false,
+    content: [
+      '近日，中国知网中国科学文献计量评价研究中心公布了"2024中国知网高被引学者"预发布名单，方佳毅老师入选"2024中国知网高被引学者"。',
+      '2024中国知网高被引学者的初选范围为：近十年（2014-2023年）至少发表过一篇论文引证标准化指数（Paper Citation Standardized Index，简称PCSI）高于理论平均值（1.65）的中国知网收录的期刊会议论文。经统计全国约335万名作者进入初选。2024中国知网高被引学者TOP1%需满足：近十年发文的作者总PCSI位于初选作者范围的TOP1%（共有学者3万人，基线值为31.016）；且近十年发表PCSI 高于理论平均值（1.65）的论文不少于5篇以及近十年至少发表1篇学术精要高影响力论文。2024中国知网高被引学者TOP5%需满足：近十年发文的作者总PCSI位于初选作者范围的TOP1%-TOP5%（共有学者8.9万人，基线值为10.297）；且近十年发表PCSI高于理论平均值（1.65）的论文不少于5篇以及近十年至少发表1篇学术精要高影响力论文。',
+    ],
+    images: [
+      { src: './image/progress/FangHonor1.4.png', alt: '导Honor' },
+    ]
+  },
+  {
+    date: '2024-12-30',
+    title: '课题组赴宁波大学参加第一届浙江省遥感科学前沿交叉论坛',
+    isExpanded: false,
+    content: [
+      '2024年12月27日至29日，课题组方佳毅老师及研究生杨洋央、黄炯豪、谢鹏，前往浙江宁波，参加了2024年第一届浙江省遥感科学前沿交叉论坛。此次论坛由宁波大学的孙伟伟教授发起，旨在推动遥感科学领域的跨学科融合，深入探讨浙江省遥感领域的科技前沿与产业需求。',
+      '课题组成员在多个专题上进行了积极的学术交流，收获颇丰。方佳毅老师在智能计算背景下的海洋定量遥感专题中，作了题为《变化环境下海岸灾害风险——复合效应、风险评估与适应》的口头报告。研究生杨洋央在多源遥感协同与人工智能专题中，作了题为《基于多源遥感数据与深度学习的灾后建筑损失评估——以地中海飓风"丹尼尔"为例》的口头报告，通过整合多源遥感数据与深度学习模型，分析了飓风灾害后的建筑损失快速评估问题。除了学术收获，课题组成员还深深被宁波的自然美景和丰富的文化底蕴所吸引。',
+      '在未来的研究工作中，课题组成员将继续努力，不断提升自身的学术水平。我们将继续专注于灾害与遥感交叉研究，积极参与国内外学术交流，致力于为遥感科学的发展贡献智慧与力量。'
+    ],
+    images: [
+      { src: './image/progress/nb20241230-1.png', alt: '导汇报' },
+      { src: './image/progress/nb20241230-2.png', alt: '杨汇报' },
+      { src: './image/progress/nb20241230-3.png', alt: '合影' },
+    ]
+  },
+  {
     date: '2024-10-30',
     title: '边万超赴上海师范大学参加第十八届"都市文化"研究生学术论坛并获奖',
     isExpanded: false,
@@ -150,25 +177,45 @@ h3 {
 
 .news-images {
   display: grid;
-  gap: 1.5rem;
+  gap: 1rem;
   margin-top: 1.5rem;
 }
 
+.grid-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-1 img {
+  width: auto;
+  max-width: 500px;  /* 可以根据需要调整单张图片的最大宽度 */
+  height: auto;
+}
+
 .grid-2 {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 400px));
+  justify-content: center;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 300px));
+  justify-content: center;
 }
 
 .grid-4 {
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 400px));
+  grid-template-rows: repeat(2, auto);
+  justify-content: center;
 }
 
 .news-images img {
   width: 100%;
   height: auto;
+  max-width: 400px;
+  max-height: 300px;
   border-radius: 8px;
   object-fit: cover;
-  aspect-ratio: 4/3;
+  aspect-ratio: 16/9;
   transition: transform 0.3s ease;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
