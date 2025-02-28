@@ -34,6 +34,7 @@
       <h3>荣誉</h3>
       <div class="content-wrapper">
         <ul>
+          <li>International Journal of Disaster Risk Science 2024年度十佳审稿人</li>
           <li>2024中国知网高被引学者TOP5%</li>
           <li>获2024年浙江省地理学会青年科技奖</li>
           <li>获2023年浙江省地理学会优秀先进个人</li>
