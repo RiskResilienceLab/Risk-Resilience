@@ -7,6 +7,10 @@
           <div class="section-title">发表论文</div>
           <ol class="paper-list">
             <li>
+              <span class="author">Fang, J.*</span>, Zhu, S., Bian, W., Li, S., Yang, W., Mo, Z., Yang, S., Yun, P., Yan, Y., Shi, X. and Xu, J., (2025). Quantitative Risk Assessment of Tropical Cyclone-Induced Extreme Waves on Marine Aquaculture Based on Physical Vulnerability. International Journal of Disaster Risk Science, 1-14. https://doi.org/10.1007/s13753-025-00635-4
+              <a href="https://mp.weixin.qq.com/s/TX0ala2sbQ-2ItsnzzvVzg" target="_blank" class="wechat-link">[WeChat Official Account]</a>
+            </li>
+            <li>
               Ao, Z., Hu, X., Tao, S., Hu, X., Wang, G., Li, M., Wang, F., Hu, L., Liang, X., Xiao, J., Yusup, A., Qi, W., Ran, Q., <span class="author">Fang, J.</span>, Chang, J., Zeng, Z., Fu, Y., Xue, B., Wang, P., Zhao, K., Li, L., Li, W., Li, Y., Jiang, M., Yang, Y., Shen, H., Zhao, X., Shi, Y., Wu, B., Yan, Z., Wang, M., Su, Y., Hu, T., Ma, Q., Bai, H., Wang, L., Yang, Z., Feng, Y., Zhang, D., Huang, E., Pan, J., Ye, H., Yang, C., Qin, Y., He, C., Guo, Y., Cheng, K., Ren, Y., Yang, H., Zheng, C., Zhu, J., Wang, S., Ji, C., Zhu, B., Liu, H., Tang, Z., Wang, Z., Zhao, S., Tang, Y., Xing, H., Guo, Q., Liu, Y., & Fang, J. (2024). A national-scale assessment of land subsidence in China's major cities. <span class="author">Science</span>, 384(6693), 301-306.
             </li>
             <li>
@@ -44,6 +48,9 @@
             </li>
             <li>
               Du, S., Shen, J., Fang, J., <span class="author">Fang, J.*</span>, Liu, W., Wen, J., Huang, X., & Chen, S. (2021). Policy delivery gaps in the land-based flood risk management in China: A wider partnership is needed. Environmental Science & Policy, 116, 128-135. (环境科学政策二区/JCR-Q1)
+            </li>
+            <li>
+              Wu, S., Hu, Y., Zhao, W., Gong, L., Song, Y., Li, C., Li, X., Hossain, M.J., Shan, X., <span class="author">Fang, J.</span> and Yin, J., (2025). Human flood adaptation characteristics: A comparative study of three global river deltas. Journal of Hydrology, 133531. https://doi.org/10.1016/j.jhydrol.2025.133531
             </li>
             <li>
               He, Y., Zhao, Y., Sun, S., <span class="author">Fang, J.</span>, Zhang, Y., Sun, Q., Liu, L., Duan, Y., Hu, X., & Shi, P. (2024). Global warming determines future increase in compound dry and hot days within wheat growing seasons worldwide. Climatic Change, 177(4), 70.
@@ -102,6 +109,9 @@
           </div>
           <div class="section-title" style="margin-top: 5%">中文论文</div>
           <ol class="paper-list">
+            <li>
+              杨思茹, 杨洋央,<span class="author">方佳毅*</span>, 莫芷慧, 朱思颖, 张峰, 胡潭高. 海平面上升下沿海极值海水位非平稳性特征演变分析[J]. 水利水电技术（中英文）, 2025.
+            </li>
             <li>
               李思达, <span class="author">方佳毅</span>, 周巍, 蒋廷臣, 柳林涛, 冯曦. 高潮位洪水的致灾机制、风险评估与预报评述[J]. 地理科学进展, 2024, 43(01):190-202.
             </li>

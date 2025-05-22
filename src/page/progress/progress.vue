@@ -18,12 +18,14 @@
                   </template>
                   <template v-else-if="item.type === 'images'">
                     <div :class="['news-images', `grid-${item.images.length}`]">
-                      <img v-for="(img, imgIndex) in item.images" 
-                           :key="imgIndex" 
-                           :src="img.src" 
-                           :alt="img.alt">
+                      <img v-for="(img, imgIndex) in item.images"
+                           :key="imgIndex"
+                           :src="img.src"
+                           :alt="img.alt"
+                           :class="{ 'long-image': img.isLongImage }">
                     </div>
                   </template>
+
                 </template>
               </div>
             </div>
@@ -38,6 +40,57 @@
 import { ref } from 'vue'
 
 const newsList = ref([
+  {
+    date: '2025-05-02',
+    title: '方佳毅老师参加2025防灾减灾大会——第二届海洋灾害监测与预警分论坛',
+    isExpanded: false,
+    content: [
+      '2025防灾减灾大会于4月28日至29日在杭州国际博览中心举行。大会由中国灾害防御协会主办，以“创新赋能防灾减灾，助力发展新质生产力”为主题，共设立18个专题分论坛。方佳毅老师参加海洋灾害监测与预警分论坛，并做口头汇报。本次分论坛是在中国灾害防御协会主办的“2025防灾减灾大会”的框架下，由中国地质大学（武汉）、中国科学院海洋研究所、北京港震科技股份有限公司、自然资源部第二海洋研究所、自然资源部海洋减灾中心、浙江省海洋监测预报中心承办，将围绕风暴潮、海平面变化、海底滑坡、海底地震、海啸、台风、海冰等严重影响人类生存环境海洋灾害的监测与预警等多个领域进行研讨。',
+      { type: 'images', images: [
+          { src: './image/progress/2025fzjz-2-1.png', alt: 'time' }
+        ]},
+      { type: 'images', images: [
+          { src: './image/progress/2025fzjz-2-2.png', alt: 'time' },
+          { src: './image/progress/2025fzjz-2-3.png', alt: 'time' }
+        ]}
+    ]
+  },
+  {
+    date: '2025-04-20 ',
+    title: '课题组赴宁波大学参加2025年中国地理学会春季年会',
+    isExpanded: false,
+    content: [
+      '2025年4月18日—20日，2025年中国地理学会春季年会（中国地理编辑出版年会·中国城市与区域管理学术年会）在浙江宁波正式召开。课题组方佳毅副教授和课题组成员周景川参加会议，并参与组织主题为“沿海城市灾害风险与韧性城市建设”分论坛。',
+      { type: 'images', images: [
+          { src: './image/progress/ningda-2025-1.png', alt: '时间排序', isLongImage: true }
+        ]},
+      '“沿海城市灾害风险与韧性城市建设”分论坛由中国地理学会自然灾害风险与综合减灾专业委员会、《国际灾害风险科学学报（英文）》联合组织，召集人为温家洪教授、方佳毅副教授、吴燕娟副研究员和杜鹃副编审。该专题分会场共有14个口头报告，聚焦沿海城市灾害风险与韧性城市建设前沿问题，吸引了众多业内专家学者关注。首先，《国际灾害风险科学学报》责任编辑，编辑部主任李颖博士和杜鹃博士介绍了期刊相关情况。温家洪教授以《极端海平面上升情景下的城市经济损失评估：与 ChatGPT 的对话》拉开序幕，随后多位报告人依次分享中国沿海地区复合洪水多情景动态评估与沿海城市适应策略优化等研究成果，涵盖沿海城市灾害风险评估、韧性策略优化、灾害风险区土地利用空间管控、超大城市平急两用公共基础设施选址等多个领域。',
+      '此次分论坛为灾害风险与城市韧性研究领域的专家学者搭建了交流平台，促进了学术思想的碰撞与融合，对推动沿海城市灾害风险管理与韧性城市建设研究具有重要意义，也为相关领域的实践与发展提供了新思路和新方向。',
+      { type: 'images', images: [
+          { src: './image/progress/ningda-2025-2.png', alt: '合照' }
+        ]},
+    ]
+  },
+  {
+    date: '2025-04-03',
+    title: '方佳毅老师受邀参加海洋二所举办的中德海洋交流会"',
+    isExpanded: false,
+    content: [
+      '3月31日至4月2日，由卫星海洋环境监测预警全国重点实验室主办，中国海洋大学、德国赫姆霍兹协会HEREON研究中心海岸带研究所、长三角海洋生态环境野外科学观测研究站协办的第三轮中德海洋与极地领域合作重大项目“自然灾害与海洋生态系统响应——因果关系与可预测性”（NECO）第二次双边会议在杭州召开。',
+      { type: 'images', images: [
+          { src: './image/progress/zhongde1.png', alt: '导Honor' }
+        ]},
+      '会议聚焦自然灾害、海洋碳汇、缺氧、热浪等生态变化过程，并探讨人工智能技术在海洋灾害预测与生态系统响应研究中的创新应用。来自中国和德国的10家科研单位的50余位专家学者参加了会议。',
+      { type: 'images', images: [
+          { src: './image/progress/zhongde2.png', alt: '时间排序', isLongImage: true}
+        ]},
+      '会议围绕海洋动力过程与人类活动对海洋生态系统的交叉影响开展了广泛研讨，设立了“动力过程对边缘海有机碳循环的影响”，“沉积动力过程及其生态效应”，“生态系统动力学与海岸带综合管理”，“复合海洋生态灾害的机理与影响”，“人类活动及自然驱动下的碳埋藏过程”以及“海洋灾害预测与风险管理”等多个专题环节，涵盖了从海洋碳汇、缺氧酸化机制、极端天气气候事件（如台风、热浪等）的生态效应到人工智能辅助下的灾害预测等前沿议题。\n' +
+      '方佳毅老师以《Extreme Sea Levels and Coastal Flood Risks in China: compound effects and adaptation》为题做英文口头汇报。',
+      { type: 'images', images: [
+          { src: './image/progress/zhongde3.png', alt: '合照' }
+        ]},
+    ]
+  },
   {
     date: '2025-01-13',
     title: '课题组赴温州市开展"台风-暴雨灾害链研究"调研工作"',
@@ -145,6 +198,17 @@ h3 {
   border-bottom: 2px solid #efecec;
 }
 
+.full-width-image {
+  max-width: 8000px !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: none !important;
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  margin: 0 auto !important;
+  display: block !important;
+}
+
 .content-wrapper {
   background-color: #fff;
   border-radius: 8px;
@@ -221,7 +285,7 @@ h3 {
 .grid-1 img {
   width: auto;
   max-width: 500px;  /* 可以根据需要调整单张图片的最大宽度 */
-  height: auto;
+  height: 100%;
 }
 
 .grid-2 {
@@ -242,7 +306,7 @@ h3 {
 
 .news-images img {
   width: 100%;
-  height: auto;
+  height: 100%;
   max-width: 400px;
   max-height: 300px;
   border-radius: 8px;
@@ -272,5 +336,13 @@ h3 {
   .news-images {
     grid-template-columns: 1fr !important;
   }
+}
+.long-image {
+  width: 70% !important;
+  max-width: 400px !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  aspect-ratio: auto !important;
 }
 </style> 

@@ -7,47 +7,27 @@
           <div class="members-container">
             <div class="member-section">
               <h3>在读研究生</h3>
-              <ul class="member-list">
-                <li>边万超</li>
-                <li>杨洋央</li>
-                <li>戴泽浩</li>
-                <li>谢鹏</li>
-                <li>黄炯豪</li>
-              </ul>
+              <div class="grade-section">
+                <div class="grade">
+                  <span class="grade-year">2022级：</span>
+                  <span class="students">边万超，杨洋央</span>
+                </div>
+                <div class="grade">
+                  <span class="grade-year">2023级：</span>
+                  <span class="students">戴泽浩，谢鹏，黄炯豪</span>
+                </div>
+                <div class="grade">
+                  <span class="grade-year">2024级：</span>
+                  <span class="students">徐璇，周景川，陈鑫颂，曹家栋</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+    </div>
     </div>
 
-<!--    <div class="section">-->
-<!--      <h3>欢迎加入我们(Risk & Resilience)</h3>-->
-<!--      <div class="content-wrapper">-->
-<!--        <div class="join-content">-->
-<!--          <p>欢迎有志青年（本科生+研究生）加入团队，参与以国家需求为主要导向的科研工作中来，主题围绕：</p>-->
-<!--          <ul class="research-areas">-->
-<!--            <li>灾害风险评估与管理</li>-->
-<!--            <li>气候变化治理</li>-->
-<!--            <li>碳中和碳达峰</li>-->
-<!--            <li>生态减灾</li>-->
-<!--            <li>人工智能在地学中应用等热点问题</li>-->
-<!--          </ul>-->
 
-<!--          <h3>要求：</h3>-->
-<!--          <ul class="requirements">-->
-<!--            <li>三观正、有上进心</li>-->
-<!--            <li>有一定自律能力和规划能力</li>-->
-<!--            <li>有团队意识、动手能力强</li>-->
-<!--            <li>专业基础扎实</li>-->
-<!--            <li>英语水平过关</li>-->
-<!--            <li>对上述研究方向充满热诚</li>-->
-<!--          </ul>-->
-
-<!--          <h3>培养目标：</h3>-->
-<!--          <p>培养学生独立的思考问题能力和批判性思考能力，支持鼓励学生申请创新挑战杯等竞赛，支持学生赴国内外知名大学深造，教学相长。</p>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
 
     <div class="section">
       <h3>科研项目助理招募公告</h3>
@@ -88,10 +68,12 @@
       <div class="content-wrapper">
         <div class="activity-item">
           <div class="activity-text">
-            <p>团建活动内容整理中，敬请期待...</p>
           </div>
           <div class="activity-images">
-            <!-- 图片将在后续添加 -->
+            <img src="/image/activity/mountain1.png" alt="爬山合影1">
+            <img src="/image/activity/mountain2.png" alt="爬山合影2">
+            <img src="/image/activity/mountain3.jpg" alt="爬山合影3">
+            <img src="/image/activity/mountain4.jpg" alt="爬山合影3">
           </div>
         </div>
       </div>
@@ -357,3 +339,5 @@ p {
   }
 }
 </style>
+<script setup lang="ts">
+</script>
