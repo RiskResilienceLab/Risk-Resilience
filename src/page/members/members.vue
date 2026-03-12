@@ -9,15 +9,15 @@
               <h3>在读研究生</h3>
               <div class="grade-section">
                 <div class="grade">
-                  <span class="grade-year">2022级：</span>
+                  <span class="grade-year">2023级：</span>
                   <span class="students">边万超，杨洋央</span>
                 </div>
                 <div class="grade">
-                  <span class="grade-year">2023级：</span>
+                  <span class="grade-year">2024级：</span>
                   <span class="students">戴泽浩，谢鹏，黄炯豪</span>
                 </div>
                 <div class="grade">
-                  <span class="grade-year">2024级：</span>
+                  <span class="grade-year">2025级：</span>
                   <span class="students">徐璇，周景川，陈鑫颂，曹家栋</span>
                 </div>
               </div>

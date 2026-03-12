@@ -7,6 +7,21 @@
           <div class="section-title">发表论文</div>
           <ol class="paper-list">
             <li>
+              Bian, W., <span class="author">Fang, J.*</span>, Wang, P., Sun, Q., Fang J., Kong F., Hu, T. (2025). Deep learning surrogate models for spatiotemporal prediction of coastal flooding inundations in Tianjin, China. Journal of Hydrology: Regional Studies, 102593. https://doi.org/10.1016/j.ejrh.2025.102593
+            </li>
+            <li>
+              Bian, W., <span class="author">Fang, J.*</span>, Du, S., & Hu, T. (2025). Evidence of increasing coastal flood risk along mainland China from 1985 to 2050: Perspectives on climate change and urban expansion. Ocean & Coastal Management, 270, 107918. https://doi.org/10.1016/j.ocecoaman.2025.107918
+            </li>
+            <li>
+              Sun, Q., Reyns, J.*, <span class="author">Fang, J.*</span>, Wang, X., Wang, Z., Zhou, L., & Liu, M*. (2025). Integrating climate change and land use change into storm flood impact analysis in coastal cities. Journal of Hydrology: Regional Studies, 61, 102745. https://doi.org/10.1016/j.ejrh.2025.102745
+            </li>
+            <li>
+              <span class="author">Fang, J.*</span>, Xie, P., Huang, J., Bian, W., Li, Y., Wang, P., ... & Hu, T. (2025). Application of multiple machine learning models to rainstorm disaster loss assessment and driving mechanism analysis in Zhejiang Province, China. Journal of Hydrology: Regional Studies, 61, 102740. https://doi.org/10.1016/j.ejrh.2025.102740
+            </li>
+            <li>
+              Yang, Y.; Bian, W.; <span class="author">Fang, J.*</span>; Tang, M.; He, Z.; Li, Y.; Fan, G*. (2025). Application of MambaBDA for Building Damage Assessment in the 2025 Los Angeles Wildfire. Buildings, 15, 4019. https://doi.org/10.3390/buildings15224019
+            </li>
+            <li>
               <span class="author">Fang, J.*</span>, Zhu, S., Bian, W., Li, S., Yang, W., Mo, Z., Yang, S., Yun, P., Yan, Y., Shi, X. and Xu, J., (2025). Quantitative Risk Assessment of Tropical Cyclone-Induced Extreme Waves on Marine Aquaculture Based on Physical Vulnerability. International Journal of Disaster Risk Science, 1-14. https://doi.org/10.1007/s13753-025-00635-4
               <a href="https://mp.weixin.qq.com/s/TX0ala2sbQ-2ItsnzzvVzg" target="_blank" class="wechat-link">[WeChat Official Account]</a>
             </li>
@@ -109,6 +124,12 @@
           </div>
           <div class="section-title" style="margin-top: 5%">中文论文</div>
           <ol class="paper-list">
+            <li>
+              <span class="author">方佳毅</span>, 张通*, 效存德. 冰盖快速消退极端情景下中国海平面上升风险[J]. 气候变化研究进展, 2025, 1-12.
+            </li>
+            <li>
+              杨思茹, 杨洋央, <span class="author">方佳毅*</span>, 莫芷慧, 朱思颖, 张峰, 胡潭高. 海平面上升下沿海极值海水位非平稳性特征演变分析[J]. 水利水电技术(中英文), 2025, 1-16.
+            </li>
             <li>
               杨思茹, 杨洋央,<span class="author">方佳毅*</span>, 莫芷慧, 朱思颖, 张峰, 胡潭高. 海平面上升下沿海极值海水位非平稳性特征演变分析[J]. 水利水电技术（中英文）, 2025.
             </li>

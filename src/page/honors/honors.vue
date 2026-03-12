@@ -6,6 +6,9 @@
         <h4>主持项目</h4>
         <ul>
           <li>
+            <div class="project-title">国家自然科学基金面上基金项目，主持，2026-2029</div>
+          </li>
+          <li>
             <div class="project-title">国家自然科学基金青年基金项目，主持，结题</div>
           </li>
           <li>
@@ -34,6 +37,7 @@
       <h3>荣誉</h3>
       <div class="content-wrapper">
         <ul>
+          <li>入选2025年Elsevier与美国斯坦福大学联合发布的全球前2%科学家榜单（“年度影响力”榜单）</li>
           <li>International Journal of Disaster Risk Science 2024年度十佳审稿人</li>
           <li>2024中国知网高被引学者TOP5%</li>
           <li>获2024年浙江省地理学会青年科技奖</li>
