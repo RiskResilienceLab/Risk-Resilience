@@ -7,6 +7,15 @@
           <div class="section-title">发表论文</div>
           <ol class="paper-list">
             <li>
+              <span class="author">Fang, J.*</span>, Huang, J., Bian, W. et al. (2026). Reconstruction of Extreme Sea Levels in coastal China using Multiple Deep Learning models. Scientific Data. https://doi.org/10.1038/s41597-026-06593-w
+            </li>
+            <li>
+              Dai, Z., <span class="author">Fang, J.</span>, Yang, W. et al. (2026). Multi-geohazard susceptibility assessment and influencing factors in Zhejiang Province, China: a machine learning approach. Geomatics, Natural Hazards and Risk. https://doi.org/10.1080/19475705.2026.2617015
+            </li>
+            <li>
+              Qu, Y., Jevrejeva, S., <span class="author">Fang, J.*</span>, &amp; Wang, S. (2026). Projected changes in sea level seasonal cycle alter global coastal flood hazards. Environmental Research Letters, 21, 034001. https://doi.org/10.1088/1748-9326/ae3b57
+            </li>
+            <li>
               Bian, W., <span class="author">Fang, J.*</span>, Wang, P., Sun, Q., Fang J., Kong F., Hu, T. (2025). Deep learning surrogate models for spatiotemporal prediction of coastal flooding inundations in Tianjin, China. Journal of Hydrology: Regional Studies, 102593. https://doi.org/10.1016/j.ejrh.2025.102593
             </li>
             <li>
@@ -125,13 +134,15 @@
           <div class="section-title" style="margin-top: 5%">中文论文</div>
           <ol class="paper-list">
             <li>
-              <span class="author">方佳毅</span>, 张通*, 效存德. 冰盖快速消退极端情景下中国海平面上升风险[J]. 气候变化研究进展, 2025, 1-12.
+              <span class="author">方佳毅</span>, 张通*, 效存德. (2025). 冰盖快速消退极端情景下中国海平面上升风险[J]. 气候变化研究进展, 1–12.
             </li>
+
             <li>
-              杨思茹, 杨洋央, <span class="author">方佳毅*</span>, 莫芷慧, 朱思颖, 张峰, 胡潭高. 海平面上升下沿海极值海水位非平稳性特征演变分析[J]. 水利水电技术(中英文), 2025, 1-16.
+              杨思茹, 杨洋央, <span class="author">方佳毅*</span>, 莫芷慧, 朱思颖, 张峰, 胡潭高. (2025). 海平面上升下沿海极值海水位非平稳性特征演变分析[J]. 水利水电技术(中英文), 1–16. （本科生论文）
             </li>
+
             <li>
-              杨思茹, 杨洋央,<span class="author">方佳毅*</span>, 莫芷慧, 朱思颖, 张峰, 胡潭高. 海平面上升下沿海极值海水位非平稳性特征演变分析[J]. 水利水电技术（中英文）, 2025.
+              莫芷慧, <span class="author">方佳毅*</span>, 钱俊辰, 谢鹏, 杨思茹, 朱思颖, 李颖, 杨军, 蒋梦非. (2026). 浙江省极端降水时空分布及其城市化效应特征研究[J]. 灾害学, 41(2): 1–11. （本科生论文）
             </li>
             <li>
               李思达, <span class="author">方佳毅</span>, 周巍, 蒋廷臣, 柳林涛, 冯曦. 高潮位洪水的致灾机制、风险评估与预报评述[J]. 地理科学进展, 2024, 43(01):190-202.

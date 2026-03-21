@@ -9,6 +9,9 @@
             <div class="project-title">国家自然科学基金面上基金项目，主持，2026-2029</div>
           </li>
           <li>
+            <div class="project-title">杭州市市级人才计划-青年创新人才，主持，2026-2028</div>
+          </li>
+          <li>
             <div class="project-title">国家自然科学基金青年基金项目，主持，结题</div>
           </li>
           <li>

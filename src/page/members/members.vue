@@ -22,12 +22,37 @@
                 </div>
               </div>
             </div>
+
+            <div class="member-section recruitment-section">
+              <h3>招生</h3>
+              <div class="recruitment-content">
+                <p class="recruitment-plan">
+                  <strong>2026年研究生招生计划：</strong>气象1位，生态信息科学1位，软件工程1-2位。
+                </p>
+
+                <p>
+                  欢迎有志青年（本科生+研究生）加入团队，参与以国家需求为主要导向的科研工作中来，主题围绕灾害风险评估与管理、气候变化治理、生态减灾、人工智能在地学中应用等热点问题，已有超过3位本科生同学在本科阶段发表论文。
+                </p>
+
+                <h4 class="sub-title">要求</h4>
+                <ul class="recruitment-list">
+                  <li>三观正、有上进心；</li>
+                  <li>有一定自律能力和规划能力；</li>
+                  <li>有团队意识，动手能力强；</li>
+                  <li>专业基础扎实，英语水平过关；</li>
+                  <li>对上述研究方向充满热诚。</li>
+                </ul>
+
+                <h4 class="sub-title">培养目标</h4>
+                <p>
+                  培养学生独立的思考问题能力和批判性思考能力，支持鼓励学生申请创新挑战杯等竞赛，支持学生赴国内外知名大学深造，教学相长。
+                </p>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
     </div>
-    </div>
-
-
 
     <div class="section">
       <h3>科研项目助理招募公告</h3>
@@ -73,7 +98,7 @@
             <img src="/image/activity/mountain1.png" alt="爬山合影1">
             <img src="/image/activity/mountain2.png" alt="爬山合影2">
             <img src="/image/activity/mountain3.jpg" alt="爬山合影3">
-            <img src="/image/activity/mountain4.jpg" alt="爬山合影3">
+            <img src="/image/activity/mountain4.jpg" alt="爬山合影4">
           </div>
         </div>
       </div>
@@ -122,7 +147,8 @@ h3 {
   margin-top: 40px;
 }
 
-.research-areas, .requirements {
+.research-areas,
+.requirements {
   list-style-type: disc;
   padding-left: 20px;
   margin: 15px 0;
@@ -168,7 +194,7 @@ p {
 }
 
 .member-section {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .member-section:last-child {
@@ -184,7 +210,6 @@ p {
 }
 
 .member-list {
-
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -219,6 +244,37 @@ p {
   color: #444;
 }
 
+.recruitment-section {
+  margin-top: 8px;
+}
+
+.recruitment-content {
+  color: #444;
+}
+
+.recruitment-plan {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.sub-title {
+  font-size: 16px;
+  color: #333;
+  margin: 18px 0 10px;
+  padding-left: 10px;
+  border-left: 3px solid #000000;
+}
+
+.recruitment-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 10px 0 16px;
+}
+
+.recruitment-list li {
+  color: #444;
+}
+
 @media (max-width: 768px) {
   .page-container {
     width: 90%;
@@ -244,6 +300,10 @@ p {
 
   .grade {
     margin-bottom: 10px;
+  }
+
+  .sub-title {
+    font-size: 15px;
   }
 }
 
@@ -339,5 +399,6 @@ p {
   }
 }
 </style>
+
 <script setup lang="ts">
 </script>
